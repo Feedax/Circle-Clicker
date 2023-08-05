@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/menu_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="8dp"
+        android:layout_margin="5dp"
+        android:text="Main Menu"
+        android:textColor="@color/main_color" />
+
+    <Button
+        android:id="@+id/calc_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:layout_margin="5dp"
+        android:text="Calculate"
+        android:textColor="@color/main_color" />
+
+    <Button
+        android:id="@+id/clear_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp"
+        android:layout_margin="5dp"
+        android:text="Clear"
+        android:textColor="@color/main_color"
+        android:elevation="12dp"/>
+
+</RelativeLayout>

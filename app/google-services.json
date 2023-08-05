@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "285013508627",
+    "project_id": "signin-afd8d",
+    "storage_bucket": "signin-afd8d.appspot.com",
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285013508627:android:f736735d561b46fb4cf5e6",
+        "android_client_info": {
+          "package_name": "com.example.vmirzadanie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285013508627-0bbftjfb3s8jp1a948pm1lqh56icr71j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vmirzadanie",
+            "certificate_hash": "e3a47d71f854a1643fe620dffc9eb71f0955df5e"
+          }
+        },
+        {
+          "client_id": "285013508627-hkern6kridtth0sb2jhee8p3tusf7u25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSI9uqQ038-cRiC2y-I4qYow1qGsmMb7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285013508627-hkern6kridtth0sb2jhee8p3tusf7u25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
